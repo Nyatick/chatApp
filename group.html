@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="group.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+        integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <title>チャットアプリ</title>
+</head>
+
+<body>
+    <header>
+        <h1>最短経路問題がわからない！！</h1>
+    </header>
+    <section class="chat_wrap">
+        <div class="group_select">
+            <div class="group_icon">
+                <i class="far fa-comment"></i>
+                <i class="fas fa-users"></i>
+            </div>
+        </div>
+        <div class="chat">
+            <div class="talk_wrap">
+                <div class="question_balloon">基本情報技術者平成30年春期 午前問2がわかりません。</div>
+                <div class="answer_box">
+                    <div class="answer_balloon">点Pから点Rまでの経路は、４本のうち２本の線が決まれば確定するので、₄C₂となります。
+                        <br>同様に、点Rから点Qまでの経路は、５本のうち３本の線が決まれば確定するので、₅C₃＝₅C₂となります。
+                        <br>それらをかけ合わせることで求める経路の数が出るので、₄C₂×₅C₂＝６×１０＝６０となります。
+                    </div>
+                </div>
+            </div>
+            <div class="comment">
+                <input type="text">
+                <button type="submit">送信</button>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+header {
+    height: 7vh;
+    border-bottom: solid 3px black;
+}
+
+h1 {
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+
+.chat_wrap {
+    display: flex;
+    min-height: 93vh;
+}
+
+.group_select {
+    width: 12%;
+    text-align: center;
+    border-right: solid 3px black;
+}
+
+.group_select i {
+    font-size: 10rem;
+    margin-top: 40px;
+    transform: scale(-1, 1);
+}
+
+.group_list {
+    width: 88%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.group {
+    width: 20%;
+    height: 200px;
+    background-color: #bbb;
+    margin: 20px 2%;
+    border-radius: 25px;
+    text-align: center;
+    line-height: 200px;
+    font-size: 3rem;
+}
+
+.create_group {
+    position: relative;
+}
+
+.create_group i {
+    position: absolute;
+    font-size: 18rem;
+    right: 50px;
+    bottom: 50px;
+    color: orange;
+}
